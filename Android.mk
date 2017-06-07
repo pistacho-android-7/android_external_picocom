@@ -13,8 +13,6 @@ LOCAL_MODULE_TAGS := optional
 # Build shared library
 LOCAL_SHARED_LIBRARIES += \
     libcutils libutils
-LOCAL_LDLIBS += -lpthread
-LOCAL_LDLIBS += -lrt
 LOCAL_CFLAGS += -DRIL_SHLIB
 LOCAL_CFLAGS += -DVERSION_STR="\"1.7.1\""
 # Enabling baudrate more then 115200kpbs
